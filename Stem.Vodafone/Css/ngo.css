@@ -1,0 +1,136 @@
+body{
+	background: black;
+}
+#header {
+
+
+}
+#text{
+	background: #BDC3C7;
+	text-align: center;
+	font-family: The Girl Next Door;
+	font-size: 1em;
+	font-weight: bold;
+	font-style: oblique;
+	border-radius: 50px;
+	
+}
+#Here {
+  border: 2px dotted black;
+  width: 20%;
+  border-radius: 50%;
+  position: left;
+  padding-left: 40px;
+  margin-left: 590px;
+  font-family: The Girl Next Door;
+  text-decoration: none;
+  font-style: italic;
+  background: #E5E4E2;
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px grey;
+  shadow: 2px gray;
+  padding: 23px;
+  text-align: center;
+}
+#other {
+  border: 1px solid black;
+  font-family: The Gir Next Door ;
+
+  border-radius: 50px;
+  text-decoration: none;
+  font-style: italic;
+  background: #E5E4E2;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px grey;
+  padding: 23px;
+  text-align: center;
+
+}
+.container{
+	
+	width: fit-content;
+	border-radius: 50px;
+	background: whitesmoke;
+	
+}
+.navbar {
+  border: 1px solid black;
+  overflow: hidden;
+  background: #E5E4E2;
+  border-radius: 50px;
+
+}
+
+.navbar a {
+  float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid red;
+}
+.navbar a.active {
+  border-bottom: 3px solid red;
+}
+.link {
+	text-decoration: none;
+	color: #EE4B2B;
+}
+.link:hover {
+	text-decoration: underline;
+	color: black;
+	
+}
+.link:visited {
+	color: green;
+}
+.heading {
+       font-family: Lora;
+	   text-shadow: 1px 1px 2px  black;
+	   border-bottom-style: solid; 
+	   border-top-style: hidden;
+	   border-left-style: hidden;
+	   border-right-style: hidden;
+	   border-color: black;
+	   width: fit-content;
+	   margin-left: 680px;
+	   letter-spacing: 1px;
+}
+.crowd {
+       font-family: Lora;
+	   text-shadow: 1px 1px 2px  black;
+	   border-bottom-style: solid; 
+	   border-top-style: hidden;
+	   border-left-style: hidden;
+	   border-right-style: hidden;
+	   border-color: red;
+	   width: fit-content;
+	   margin-left: 560px;
+	   letter-spacing: 1px;
+}
+#nav {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+#footer {
+  border: 1px solid black;
+  border-radius: 30px;
+  font-weight:  bold;
+  text-align: center;
+  
+  background: #36454F;
+  font-size: 14px;
+  height: 28px;
+  font-family: Lora;
+}
