@@ -1,0 +1,124 @@
+body {
+
+  background: #E5E4E2;
+}
+
+.container {
+  border: 0.5px solid black;
+  border-radius: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 1px;
+  height: fit-content;
+  background: #36454F;
+  color: #000000;
+}
+
+
+#Here {
+  border: 2px dotted black;
+  width: 20%;
+  border-radius: 50%;
+  margin:auto;
+  font-family: The Girl Next Door;
+  text-decoration: none;
+  font-style: italic;
+  background: #E5E4E2;
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px grey;
+  box-shadow: 2px gray;
+  padding: 23px;
+  text-align: center;
+}
+#other {
+  border: 1px solid black;
+  font-family: The Gir Next Door ;
+
+  border-radius: 50px;
+  text-decoration: none;
+  font-style: italic;
+  background: #E5E4E2;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px grey;
+  padding: 23px;
+  text-align: center;
+
+}
+.navbar {
+  border: 1px solid black;
+  overflow: hidden;
+  background: #E5E4E2;
+  border-radius: 50px;
+
+}
+
+.navbar a {
+  float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid red;
+}
+.navbar a.active {
+  border-bottom: 3px solid red;
+}
+#nav {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#text {
+
+  /* kyunki hum ne already font ki styling html ke head mein kr li hai isliye hume idhar font face property use nahi karenge */
+  font-family: The Girl Next Door  ;
+  border-radius: 150px;
+  background: #E5E4E2;
+  font-size: 25px;
+  border: 2px dotted black;
+ margin-left: auto;
+ margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  
+}
+
+.one{
+    margin-left: -24em;
+    text-align: center;
+    display: block;
+
+}
+/* class hai isliye . lagega. Aur id mein # lagta hai  */
+/*  photo change karne ke hai */
+.img2 {
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 330px;
+}
+
+
+#footer {
+  border: 1px solid black;
+  border-radius: 30px;
+  font-weight:  bold;
+  text-align: center;
+  background: #36454F;
+  font-size: 14px;
+  height: 28px;
+  font-family: Lora;
+}
