@@ -1,65 +1,58 @@
-body{
-	background: black;
+body {
+    background: #F5EFE6; /* Lightest Green */
+    color: #1A4D2E; /* Dark Green */
 }
 
-#text{
-	background: #BDC3C7;
-	text-align: center;
-	/* font-family: The Girl Next Door; */
-	font-size: 1.2em;
-	font-weight: bold;
-	font-style: oblique;
-	border-radius: 50px;
-	margin: auto;
+#text {
+    background: #E8DFC7; /* Light Green */
+    text-align: center;
+    font-family: 'The Girl Next Door', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* font-style: italic; */
+    border-radius: 50px;
+    margin: auto;
+    color: #1A4D2E; /* Dark Green */
 }
 
-
-.container{
-	
-	width: fit-content;
-	border-radius: 50px;
-	background: whitesmoke;
-	
+.container {
+    width: fit-content;
+    border-radius: 50px;
+    background: #D4E09B; /* Medium Green */
+    color: #1A4D2E; /* Dark Green */
 }
 
-
-.heading{
-  margin: auto;
+.heading {
+    font-family: 'Lora', serif;
+   
+    width: fit-content;
+    letter-spacing: 1px;
+    text-emphasis-style: none;
+	text-decoration: none;
+    color: #1A4D2E; /* Dark Green */
 }
 
 .link {
 	text-decoration: none;
-	color: #EE4B2B;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    color: #07160d;
 }
+
 .link:hover {
-	text-decoration: underline;
-	color: black;
-	
+    text-decoration: underline;
+    color: rgb(33, 115, 66);
 }
-.link:visited {
-	color: green;
-}
-.heading {
-     font-family: Lora;
-	   border-bottom-style: solid; 
-	   border-top-style: hidden;
-	   border-left-style: hidden;
-	   border-right-style: hidden;
-	   border-color: rgb(255, 0, 0);
-	   width: fit-content;
-	   letter-spacing: 1px;
-     text-emphasis-style: none;
 
-}
 .crowd {
-     font-family: Lora;
-	   margin-left: 33em;
-	   border-bottom-style: solid; 
-	   border-top-style: hidden;
-	   border-left-style: hidden;
-	   border-right-style: hidden;
-	   border-color: red;
-	   width: fit-content;
-	   letter-spacing: 1px;
+    font-family: 'Lora', serif;
+    margin-left: 25.1em;
+    border-bottom: 2px solid #1A4D2E; /* Dark Green */
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: #1A4D2E; /* Dark Green */
+    width: fit-content;
+    letter-spacing: 1px;
+    color: #1A4D2E; /* Dark Green */
 }
-

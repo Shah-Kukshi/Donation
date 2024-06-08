@@ -1,29 +1,30 @@
 body {
-
-  background: #E5E4E2;
+  background: #F5EFE6; /* Lightest Green */
+  color: #1A4D2E; /* Dark Green */
 }
 
 .container {
-  border: 0.5px solid black;
+  border: 0.5px solid #1A4D2E; /* Dark Green */
   border-radius: 50px;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 1px;
   height: fit-content;
-  background: #36454F;
-  color: #000000;
+  background: #4F6F52; /* Medium Green */
+  color: #F5EFE6; /* Lightest Green */
 }
-
-
+p{
+  padding: 2px;
+}
 #Here {
-  border: 2px dotted black;
+  border: 2px dotted #1A4D2E; /* Dark Green */
   width: 20%;
   border-radius: 50%;
-  margin:auto;
-  font-family: The Girl Next Door;
+  margin: auto;
+  font-family: 'The Girl Next Door', sans-serif;
   text-decoration: none;
   font-style: italic;
-  background: #E5E4E2;
+  background: #E8DFC7; /* Light Green */
   font-weight: bold;
   font-size: 2em;
   text-transform: capitalize;
@@ -31,94 +32,91 @@ body {
   box-shadow: 2px gray;
   padding: 23px;
   text-align: center;
+  color: #1A4D2E; /* Dark Green */
 }
-#other {
-  border: 1px solid black;
-  font-family: The Gir Next Door ;
 
+#other {
+  border: 1px solid #1A4D2E; /* Dark Green */
+  font-family: 'The Girl Next Door', sans-serif;
   border-radius: 50px;
   text-decoration: none;
   font-style: italic;
-  background: #E5E4E2;
+  background: #E8DFC7; /* Light Green */
   font-weight: bold;
   font-size: 1.2em;
   text-transform: capitalize;
   text-shadow: 2px 2px 5px grey;
   padding: 23px;
   text-align: center;
-
+  color: #1A4D2E; /* Dark Green */
 }
-.navbar {
-  border: 1px solid black;
-  overflow: hidden;
-  background: #E5E4E2;
-  border-radius: 50px;
 
+.navbar {
+  border: 1px solid #1A4D2E; /* Dark Green */
+  overflow: hidden;
+  background: #E8DFC7; /* Light Green */
+  border-radius: 50px;
 }
 
 .navbar a {
   float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px solid transparent;
-
+  display: block;
+  color: #1A4D2E; /* Dark Green */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
 
 .navbar a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #4F6F52; /* Medium Green */
 }
+
 .navbar a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #4F6F52; /* Medium Green */
 }
+
 #nav {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
 #text {
-
-  /* kyunki hum ne already font ki styling html ke head mein kr li hai isliye hume idhar font face property use nahi karenge */
-  font-family: The Girl Next Door  ;
+  font-family: 'The Girl Next Door', sans-serif;
   border-radius: 150px;
-  background: #E5E4E2;
+  background: #E8DFC7; /* Light Green */
   font-size: 25px;
-  border: 2px dotted black;
- margin-left: auto;
- margin-right: auto;
+  border: 2px dotted #1A4D2E; /* Dark Green */
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
   text-align: center;
-  border: none;
-  
+  color: #1A4D2E; /* Dark Green */
 }
 
-.one{
-    margin-left: -24em;
-    text-align: center;
-    display: block;
-
+.one {
+  margin-left: -24em;
+  text-align: center;
+  display: block;
 }
-/* class hai isliye . lagega. Aur id mein # lagta hai  */
-/*  photo change karne ke hai */
+
 .img2 {
-  border: 2px solid black;
+  border: 2px solid #1A4D2E; /* Dark Green */
   width: 400px;
   height: 300px;
   border-radius: 50%;
   margin-left: 330px;
 }
 
-
 #footer {
-  border: 1px solid black;
+  border: 1px solid #1A4D2E; /* Dark Green */
   border-radius: 30px;
-  font-weight:  bold;
+  font-weight: bold;
   text-align: center;
-  background: #36454F;
+  background: #4F6F52; /* Medium Green */
   font-size: 14px;
   height: 28px;
-  font-family: Lora;
+  font-family: 'Lora', serif;
+  color: #F5EFE6; /* Lightest Green */
 }
